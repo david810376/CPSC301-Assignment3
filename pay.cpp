@@ -92,7 +92,7 @@ void separateAndSave(vector<Person> &employeesvect,vector<string> &companyName)
         string companyname = companyName.at(i);
         ofstream outfile;
         outfile.open(companyname+".txt");
-        outfile << "------------------------------------" << endl;
+        outfile << "--------------------------------------" << endl;
         //second loop that use to read all the data
         for(int j=0;j<employeesvect.size();j++)
         {
