@@ -10,7 +10,7 @@ void readDate( vector<Person> &employeesvect);
 void getCompanies(vector<Person> &employeesvect,vector<string> &companyName);
 void printHighestPaid(vector<Person> &employeesvect);
 void separateAndSave(vector<Person> &employeesvect,vector<string> &companyName);
-void Display(vector<Person> &employeesvect);
+
 
 void readDate(vector<Person> &employeesvect) //read the data use vector to replace array
 {
